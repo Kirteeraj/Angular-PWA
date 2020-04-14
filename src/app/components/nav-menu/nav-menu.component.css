@@ -17,14 +17,16 @@ a,li {text-decoration:none; }
 }
 
 .sidebar-toggle{
-   font-size:2rem;
+   font-weight: 500;
+   font-size: 2rem;
+   text-align: center;
    font-family: 'Segoe UI',sans-serif;
-   color: white;
-   background-color: rgba(0,0,0,.5);
+   color: #E64A19;
+   background-color: white;
    width: 112px;
    margin:40px;
    padding: 10px;
-   text-transform: capitalize;
+   border-radius: 15px;
 }
 
 
@@ -42,11 +44,14 @@ a,li {text-decoration:none; }
 	margin-bottom: 20px;
 	color: white;
 	background-color:rgba(0,0,0,.5);
+	border-radius: 15px;
+	font-weight: 500;
+	text-align: center;
 
 }
 
 .sidebar-items li:hover{
-	color: rgba(0,0,0,.85);
+	color: #E64A19;
 	background-color: #fbfbfb;
 	transition: .3s;
 }
